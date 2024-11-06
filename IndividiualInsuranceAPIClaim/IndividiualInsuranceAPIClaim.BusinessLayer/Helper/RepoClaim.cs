@@ -46,8 +46,7 @@ namespace IndividiualInsuranceAPIClaim.BusinessLayer.Helper
                 if(existingData != null)
                 {
                     decimal newPlafond = Convert.ToDecimal(existingData.Plafond) - Convert.ToDecimal(request.Cost);
-                    //var peserta = new TblPeserta { Plafond = newPlafond };
-                    //_membershipContext.Entry(existingData).CurrentValues.SetValues(peserta);
+
                     (from p in _membershipContext.TblPeserta
                      where p.CardNumber == request.CardNumber
                      select p)
