@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace IndividiualInsuranceAPIClaim.BusinessLayer.BusinessObject
 {
-    public class BODiagnosa
+    public class BODiagnosa : IBODiagnosa
     {
         private ClaimContext _claimContext;
         RepoDiagnosa repo;

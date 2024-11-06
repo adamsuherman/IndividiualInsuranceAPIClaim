@@ -12,7 +12,7 @@ namespace IndividiualInsuranceAPIClaim.Controllers
         private IConfiguration _configuration;
         List<msDiagnosa> ArrResult = new List<msDiagnosa>();
         msDiagnosa result = new msDiagnosa();
-        BODiagnosa _boDiagnosa;
+        IBODiagnosa _boDiagnosa;
         private readonly ClaimContext _claimContext;
 
         public DiagnosaController(IConfiguration configuration, ClaimContext claimContext)
