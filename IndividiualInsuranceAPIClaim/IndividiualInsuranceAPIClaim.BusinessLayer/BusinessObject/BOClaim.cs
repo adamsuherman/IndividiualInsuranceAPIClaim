@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace IndividiualInsuranceAPIClaim.BusinessLayer.BusinessObject
 {
-    public class BOClaim
+    public class BOClaim : IBOClaim
     {
         private ClaimContext _claimContext;
         private MembershipContext _membershipContext;

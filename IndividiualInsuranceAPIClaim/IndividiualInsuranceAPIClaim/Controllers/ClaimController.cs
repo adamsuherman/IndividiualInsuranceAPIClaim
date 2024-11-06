@@ -10,7 +10,7 @@ namespace IndividiualInsuranceAPIClaim.Controllers
     public class ClaimController : Controller
     {
         private IConfiguration _configuration;
-        private readonly BOClaim _boClaim;
+        private readonly IBOClaim _boClaim;
         private readonly ClaimContext _claimContext;
         private readonly MembershipContext _membershipContext;
         BResInsertClaim result = new BResInsertClaim();
