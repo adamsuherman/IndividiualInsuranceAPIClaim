@@ -5,6 +5,10 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndividiualInsuranceAPIClaim", "IndividiualInsuranceAPIClaim\IndividiualInsuranceAPIClaim.csproj", "{7668C1FF-378E-4D74-B52F-AA783546C920}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndividiualInsuranceAPIClaim.BusinessLayer", "IndividiualInsuranceAPIClaim.BusinessLayer\IndividiualInsuranceAPIClaim.BusinessLayer.csproj", "{FCF5DC84-37D6-4742-ABD8-7088AD0A4307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndividiualInsuranceAPIClaim.DataAccess", "IndividiualInsuranceAPIClaim.DataAccess\IndividiualInsuranceAPIClaim.DataAccess.csproj", "{9D6E239C-F54D-4889-8BC2-00C781D68717}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7668C1FF-378E-4D74-B52F-AA783546C920}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7668C1FF-378E-4D74-B52F-AA783546C920}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7668C1FF-378E-4D74-B52F-AA783546C920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCF5DC84-37D6-4742-ABD8-7088AD0A4307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF5DC84-37D6-4742-ABD8-7088AD0A4307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF5DC84-37D6-4742-ABD8-7088AD0A4307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF5DC84-37D6-4742-ABD8-7088AD0A4307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D6E239C-F54D-4889-8BC2-00C781D68717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6E239C-F54D-4889-8BC2-00C781D68717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6E239C-F54D-4889-8BC2-00C781D68717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6E239C-F54D-4889-8BC2-00C781D68717}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
